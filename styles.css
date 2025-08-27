@@ -101,6 +101,19 @@ p {
 	/* Componsate for header height. */
 	padding-top: calc(4vh + 4.25rem);
 }
+.social-links-embed {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+	.social-links-embed a {
+		color: inherit;
+	}
+	.social-links-embed svg {
+		width: 8rem; /* 48px default */
+		height: 8rem;
+		fill: currentColor;
+	}
 
 
 /* ================ Content sections ================ */
